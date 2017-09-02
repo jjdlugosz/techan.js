@@ -288,7 +288,8 @@ module.exports = function(d3_svg_line, d3_svg_area, d3_line_interpolate, d3_sele
               dispatch.call('mouseout', this, d);
             }
           })
-          .on('mousemove', function(d) { dispatch.call('mousemove', this, d); });
+          .on('mousemove', function(d) { dispatch.call('mousemove', this, d); })
+          .on('contextmenu', function (d) { dispatch.call('contextmenu', this, d); });
         };
       },
 

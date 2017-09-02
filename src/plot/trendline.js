@@ -12,9 +12,6 @@ module.exports = function(d3_behavior_drag, d3_event, d3_select, d3_dispatch, ac
       trendlineGroup.append('path').attr('class', 'body');
       trendlineGroup.append('circle').attr('class', 'start').attr('r', 1);
       trendlineGroup.append('circle').attr('class', 'end').attr('r', 1);
-      trendlineGroup.on("contextmenu", function () {
-          console.log("daje rade");
-      })
 
       var interaction = group.entry.append('g').attr('class', 'interaction').style('opacity', 0).style('fill', 'none')
         .call(plot.interaction.mousedispatch(dispatch));
