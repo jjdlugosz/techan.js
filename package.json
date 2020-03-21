@@ -24,7 +24,7 @@
     "type": "git",
     "url": "https://github.com/andredumas/techan.js.git"
   },
-  "license" : "MIT",
+  "license": "MIT",
   "dependencies": {
     "d3": "~4.2.6"
   },
@@ -51,7 +51,7 @@
     "jasmine-core": "~2.4.1",
     "karma": "^1.2.0",
     "karma-jasmine": "~1.0.2",
-    "karma-phantomjs-launcher": "~1.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
     "load-grunt-tasks": "~3.5.2",
     "phantomjs": "^2.1.7"
   },
